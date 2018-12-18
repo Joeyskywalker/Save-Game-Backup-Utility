@@ -30,13 +30,13 @@ namespace SaveGameBackupUtility
         }
 
         string sourceFolder;
-        string empireName;
+        //string empireName;
         string destinationFolder;
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
             sourceFolder = @textBoxSource.Text;
-            empireName = textBoxEmpireName.Text;
+            //empireName = textBoxEmpireName.Text;
             destinationFolder = @textBoxDestination.Text;
             buttonStart.Enabled = false;
             buttonStop.Enabled = true;
@@ -55,7 +55,7 @@ namespace SaveGameBackupUtility
         private void buttonStop_Click(object sender, EventArgs e)
         {
             sourceFolder = "";
-            empireName = "";
+            //empireName = "";
             destinationFolder = "";
             buttonStart.Enabled = true;
             buttonStop.Enabled = false;
@@ -78,26 +78,6 @@ namespace SaveGameBackupUtility
             
                 string fileName = destinationFolder + time;
                 System.IO.File.Copy(sourceFolder, fileName, false);
-
-
-            //This would allow any file name to be backedup, impliment later
-
-            //if (System.IO.Directory.Exists(sourceFolder))
-            //{
-
-            //string[] files = System.IO.Directory.GetFiles(sourceFolder);
-            //string fileName;
-            //string destFile;
-
-            //// Copy the files and overwrite destination files if they already exist.
-            //foreach (string s in files)
-            //{
-            //    // Use static Path methods to extract only the file name from the path.
-            //    fileName = System.IO.Path.GetFileName(s);
-            //    destFile = System.IO.Path.Combine(destinationFolder + time, fileName);
-            //    System.IO.File.Copy(s, destFile, true);
-            //}
-            //}
         }
 
         private void buttonTestBackup_Click(object sender, EventArgs e)
@@ -116,16 +96,5 @@ namespace SaveGameBackupUtility
             _save_timer.Stop();
         }
 
-        //private void timerToSave()
-        //{
-        //    //https://stackoverflow.com/questions/13019433/calling-a-method-every-x-minutes
-
-        //    var timer = new System.Threading.Timer(
-        //    e => makeBackup(),
-        //    null,
-        //    TimeSpan.Zero,
-        //    TimeSpan.FromMinutes(5));
-
-        //}
     }
 }

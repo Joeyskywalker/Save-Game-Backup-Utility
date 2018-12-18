@@ -67,6 +67,7 @@
             this.textBoxEmpireName.Size = new System.Drawing.Size(472, 20);
             this.textBoxEmpireName.TabIndex = 3;
             this.textBoxEmpireName.Text = "spacecatholics";
+            this.textBoxEmpireName.Visible = false;
             // 
             // labelEmpireName
             // 
@@ -76,6 +77,7 @@
             this.labelEmpireName.Size = new System.Drawing.Size(73, 13);
             this.labelEmpireName.TabIndex = 2;
             this.labelEmpireName.Text = "Empire Name:";
+            this.labelEmpireName.Visible = false;
             // 
             // textBoxDestination
             // 
@@ -123,6 +125,7 @@
             this.labelMP.Size = new System.Drawing.Size(317, 13);
             this.labelMP.TabIndex = 8;
             this.labelMP.Text = "Be sure to start your Empire Name with \"mp\" for multiplayer games";
+            this.labelMP.Visible = false;
             // 
             // labelRunning
             // 
@@ -153,7 +156,7 @@
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(312, 13);
             this.labelTitle.TabIndex = 11;
-            this.labelTitle.Text = "Save Game Backup Utility version 0.0.1 - Made by Joseph Slack";
+            this.labelTitle.Text = "Save Game Backup Utility version 0.0.2 - Made by Joseph Slack";
             // 
             // Form1
             // 
