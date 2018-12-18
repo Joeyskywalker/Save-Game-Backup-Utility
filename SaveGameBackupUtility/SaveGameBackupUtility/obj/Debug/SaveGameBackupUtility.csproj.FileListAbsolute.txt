@@ -1,0 +1,10 @@
+C:\Users\joey_\source\repos\SaveGameBackupUtility\SaveGameBackupUtility\bin\Debug\SaveGameBackupUtility.exe.config
+C:\Users\joey_\source\repos\SaveGameBackupUtility\SaveGameBackupUtility\bin\Debug\SaveGameBackupUtility.exe
+C:\Users\joey_\source\repos\SaveGameBackupUtility\SaveGameBackupUtility\bin\Debug\SaveGameBackupUtility.pdb
+C:\Users\joey_\source\repos\SaveGameBackupUtility\SaveGameBackupUtility\obj\Debug\SaveGameBackupUtility.csprojAssemblyReference.cache
+C:\Users\joey_\source\repos\SaveGameBackupUtility\SaveGameBackupUtility\obj\Debug\SaveGameBackupUtility.Form1.resources
+C:\Users\joey_\source\repos\SaveGameBackupUtility\SaveGameBackupUtility\obj\Debug\SaveGameBackupUtility.Properties.Resources.resources
+C:\Users\joey_\source\repos\SaveGameBackupUtility\SaveGameBackupUtility\obj\Debug\SaveGameBackupUtility.csproj.GenerateResource.cache
+C:\Users\joey_\source\repos\SaveGameBackupUtility\SaveGameBackupUtility\obj\Debug\SaveGameBackupUtility.csproj.CoreCompileInputs.cache
+C:\Users\joey_\source\repos\SaveGameBackupUtility\SaveGameBackupUtility\obj\Debug\SaveGameBackupUtility.exe
+C:\Users\joey_\source\repos\SaveGameBackupUtility\SaveGameBackupUtility\obj\Debug\SaveGameBackupUtility.pdb
